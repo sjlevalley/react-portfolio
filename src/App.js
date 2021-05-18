@@ -1,23 +1,29 @@
 import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import Navbar from "./components/Navbar/navbar";
+import Jumbotron from "./components/Jumbotron/jumbotron";
+import AboutMe from "./components/AboutMe/aboutme";
+import Work from "./components/Work/work";
+import Contact from "./components/Contact/contact";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+
+      <Router>
+        <div className="App">
+          <Navbar />
+          <Jumbotron />
+          <AboutMe />
+          <Work />
+          <Contact />
+
+
+        </div>
+
+
+      </Router>
     </div>
   );
 }
