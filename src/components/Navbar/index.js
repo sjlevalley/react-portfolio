@@ -18,7 +18,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/discover"
+              to="/project"
               className="nav-link"
               activeClassName="active"
             >
@@ -26,7 +26,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/search" className="nav-link" activeClassName="active">
+            <NavLink to="/contact" className="nav-link" activeClassName="active">
               Contact Me
             </NavLink>
           </li>

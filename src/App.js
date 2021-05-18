@@ -1,17 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
-import Discover from "./pages/Discover";
+import Project from "./pages/Project";
 import About from "./pages/About";
-import Search from "./pages/Search";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Hero from "./components/Hero"
+
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
+        <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
+          <h1>Welcome to My Profile</h1>
+        </Hero>
         <Wrapper>
           <Route exact path="/">
             <Redirect to="/about" />
@@ -19,14 +24,14 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/discover">
-            <Discover />
+          <Route exact path="/project">
+            <Project />
           </Route>
-          <Route exact path="/search">
-            <Search />
+          <Route exact path="/contact">
+            <Contact />
           </Route>
+          <Footer />
         </Wrapper>
-        <Footer />
       </div>
     </Router>
   );

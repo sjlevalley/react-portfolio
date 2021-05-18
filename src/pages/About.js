@@ -7,9 +7,9 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
+      {/* <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
         <h1>Welcome to My Profile</h1>
-      </Hero>
+      </Hero> */}
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
@@ -42,7 +42,7 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </div >
   );
 }
 

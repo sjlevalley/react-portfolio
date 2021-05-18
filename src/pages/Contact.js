@@ -1,8 +1,10 @@
 import React from "react";
+// import Navbar from "../components/Navbar"
 
 
 function Contact() {
   return (
+
     <footer className="container-fluid border border-dark" id="contact">
       <div className="row">
         <div className="col-3 border border-dark">My Contact Information</div>
