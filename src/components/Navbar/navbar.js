@@ -6,29 +6,29 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand navbar-light bg-light">
-            <Link className="navbar-brand" to="/about">
+            <a className="navbar-brand" href="#about">
                 Steve LeValley
-            </Link>
+            </a>
             <div className="navbar-collapse collapse d-flex justify-content-end">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <NavLink to="#about" className="nav-link" activeClassName="active">
+                        <a href="#about" className="nav-link" activeClassName="active">
                             About Me
-            </NavLink>
+            </a>
                     </li>
                     <li className="nav-item">
-                        <NavLink
-                            to="#myProjects"
+                        <a
+                            href="#myProjects"
                             className="nav-link"
                             activeClassName="active"
                         >
                             My Projects
-            </NavLink>
+            </a>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="#contact" className="nav-link" activeClassName="active">
+                        <a href="#contact" className="nav-link" activeClassName="active">
                             Contact Me
-            </NavLink>
+            </a>
                     </li>
                     <li className="nav-item">
                         <a href="https://sjlevalley.github.io/Resume/" target="_blank" rel="noreferrer" className="nav-link" activeClassName="active">
@@ -39,6 +39,6 @@ function Navbar() {
             </div>
         </nav>
     );
-} 
+}
 
 export default Navbar;

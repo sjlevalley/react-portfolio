@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import Jumbotron from "./components/Jumbotron/jumbotron";
@@ -10,7 +9,6 @@ import './App.css';
 function App() {
   return (
     <div className="container-fluid">
-
       <Router>
         <div className="App">
           <Navbar />
@@ -18,8 +16,6 @@ function App() {
           <AboutMe />
           <Work />
           <Contact />
-
-
         </div>
 
 

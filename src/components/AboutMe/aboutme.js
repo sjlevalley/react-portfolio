@@ -4,7 +4,7 @@ import Image from "./MeImage.png"
 
 function AboutMe() {
     return (
-        <div className="container-fluid border border-dark">
+        <div className="container-fluid border border-dark" id="about">
             <div className="row">
                 <div className="col-3 border border-dark"><h3>About Me</h3></div>
                 <div className="col border border-dark">
