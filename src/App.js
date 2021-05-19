@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Project from "./pages/Project";
+import meImage from "./utils/images/MeImage.jpg"
+import shipImage from "./utils/images/shipImage.jpg"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
@@ -14,15 +16,15 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
+        <Hero backgroundImage={shipImage}>
           <h1>Welcome to My Profile</h1>
-        </Hero>
+        </Hero >
         <Wrapper>
           <Route exact path="/">
             <Redirect to="/about" />
           </Route>
           <Route exact path="/about">
-            <About />
+            <About src={meImage} />
           </Route>
           <Route exact path="/project">
             <Project />

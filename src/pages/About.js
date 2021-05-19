@@ -1,15 +1,11 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function About() {
+function About(props) {
   return (
     <div>
-      {/* <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Welcome to My Profile</h1>
-      </Hero> */}
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
@@ -20,23 +16,29 @@ function About() {
           <Col size="md-12">
             <p>
               <img
-                src=""
+                src={props.src}
                 alt="A guy holding a fish"
                 className="IDImage float-left p-2"
               />
-              Hello! My name is Steve LeValley. I am currently working on getting my
-              Full-Stack Web Development certification from the University of
-              California, San Diego (UCSD). I previously received a B.S. Degree in
-              Marine Engineering Technology from the California Maritime Academy and I
-              currently live in San Diego.
+              <strong>Introduction</strong> - Hello! My name is Steve LeValley. I am currently finishing up my certification for
+              Full-Stack Web Development through the University of California, San Diego (UCSD)
             </p>
             <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-              malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-              ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-              Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-              porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
+              <strong>Professional Background</strong> - For the past decade, I have been heavily involved in many aspects of shipboard
+              engineering related operations in both the Government and Private sectors as well as volunteering in the Navy Reserves.
+            </p>
+            <p>
+              <strong>Education</strong> - Along with my Full-Stack Web Development certification, I currently hold a Bachelors
+              of Science (B.S.) Degree in Marine Engineering from The California Maritime Academy, which is a university located
+              in Vallejo, California and a part of the California State University System. I arrived at the California Maritime
+              Academy after attending junior college in both San Diego, California and Santa Barbara, California. I am a San Diego
+              native and attended high school at Valhalla High School in El Cajon, CA before beginning my college experience.
+            </p>
+            <p>
+              <strong>Personal</strong> - I am a very driven individual and enjoy doing many different activities in my spare time. Those
+              activities include, but are not limited to, travelling overseas, taking road trips here in the U.S., participating in athletic endeavors,
+              learning about stocks and market economics, barbecuing, working out, taking advantage of our beaches here in San Diego, as well
+              as maintaining and updating my website (one side benefit of taking this web development course).
             </p>
 
           </Col>
