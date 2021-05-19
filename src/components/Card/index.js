@@ -40,7 +40,7 @@ function Card() {
             <div className="card-body">
               <h5 className="card-title">Weather Dashboard</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://github.com/sjlevalley/WeatherDashboard" target="_blank" rel="noreferrer" className="btn btn-primary">View the Weather Dashboard</a>
+              <a href="https://sjlevalley.github.io/WeatherDashboard/" target="_blank" rel="noreferrer" className="btn btn-primary">View the Weather Dashboard</a>
             </div>
           </div>
         </div>
