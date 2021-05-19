@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import MeImage from "../utils/images/MeImage.jpg"
 
 function About(props) {
   return (
@@ -16,7 +17,7 @@ function About(props) {
           <Col size="md-12">
             <p>
               <img
-                src={props.src}
+                src={MeImage}
                 alt="A guy holding a fish"
                 className="IDImage float-left p-2"
               />
