@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Project from "./pages/Project";
 import meImage from "./utils/images/MeImage.jpg"
+import employeeDirectoryPic from "./utils/images/employeeDirectoryPic.png"
 import shipImage from "./utils/images/shipImage.jpg"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
