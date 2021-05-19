@@ -30,6 +30,11 @@ function Navbar() {
               Contact Me
             </NavLink>
           </li>
+          <li className="nav-item">
+            <a href="https://sjlevalley.github.io/Resume/" className="nav-link" activeClassName="active">
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
