@@ -11,3 +11,12 @@ div[data-reactroot] {
   padding: 0;
   margin: 0;
 }
+
+.contactRow {
+  display: flex;
+  justify-content: center;
+}
+
+.IDImage {
+  height: 100%;
+}
