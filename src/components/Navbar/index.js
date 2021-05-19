@@ -31,7 +31,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a href="https://sjlevalley.github.io/Resume/" className="nav-link" activeClassName="active">
+            <a href="https://sjlevalley.github.io/Resume/" target="_blank" rel="noreferrer" className="nav-link" activeClassName="active">
               Resume
             </a>
           </li>

@@ -17,7 +17,6 @@ function App() {
       <div>
         <Navbar />
         <Hero backgroundImage={shipImage}>
-
         </Hero >
         <Wrapper>
           <Route exact path="/">
