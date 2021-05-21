@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import codingResume from "./coding-resume.pdf"
+
 
 // Depending on the current path, this component sets the "active" class on the
 // appropriate navigation link item
@@ -31,9 +33,9 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a href="https://sjlevalley.github.io/Resume/" target="_blank" rel="noreferrer" className="nav-link" activeClassName="active">
-              Resume
-            </a>
+            <NavLink to={codingResume} target="_blank" rel="noreferrer noopener" className="nav-link" activeClassName="active">
+              Resume(PDF)
+            </NavLink>
           </li>
         </ul>
       </div>
