@@ -1,11 +1,17 @@
 # Summary
 
+![](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+# Screenshot of App
+
+![App Screenshot](PortfolioScreenShot.png "Description")
+
+## DESCRIPTION
+
 Welcome to my Portfolio! This portfolio was created with React
 and is designed to allow people to conduct a detailed review of
 my projects and apps thus far in my coding career. Please feel
 free to look through the information presented.
-
-![App Screenshot](PortfolioScreenShot.png "Description")
 
 # Getting Started with Create React App
 
