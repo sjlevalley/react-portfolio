@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.titleText {
+  background-color: lightslategrey;
+}
+
 html,
 body,
 #root,

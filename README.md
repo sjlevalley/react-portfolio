@@ -1,3 +1,12 @@
+# Summary
+
+Welcome to my Portfolio! This portfolio was created with React
+and is designed to allow people to conduct a detailed review of
+my projects and apps thus far in my coding career. Please feel
+free to look through the information presented.
+
+![App Screenshot](src\utils\images\PortfolioScreenShot.png "Description")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
