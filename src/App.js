@@ -15,9 +15,8 @@ function App() {
   return (
     <Router>
       <div>
+        <Hero backgroundImage={shipImage} />
         <Navbar />
-        <Hero backgroundImage={shipImage}>
-        </Hero >
         <Wrapper>
           <Route exact path="/">
             <Redirect to="/about" />

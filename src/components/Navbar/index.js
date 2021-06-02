@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand navbar-light bg-light">
       <Link className="navbar-brand" to="/about">
-        Steve LeValley
+        Steve LeValley (SLeValley@gmail.com)
       </Link>
       <div className="navbar-collapse collapse d-flex justify-content-end">
         <ul className="navbar-nav">

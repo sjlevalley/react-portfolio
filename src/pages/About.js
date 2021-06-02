@@ -18,7 +18,7 @@ function About(props) {
           <Col size="md-12">
             <img
               src={MeImage}
-              alt="A guy holding a fish"
+              alt="Me holding a fish"
               className="IDImage float-left p-2"
             />
             <div className="container-fluid">

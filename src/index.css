@@ -17,6 +17,10 @@ div[data-reactroot] {
   justify-content: center;
 }
 
+.contactCard {
+  height: 220px;
+}
+
 .IDImage {
   height: 100%;
 }

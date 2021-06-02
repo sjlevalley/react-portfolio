@@ -11,12 +11,12 @@ function Contact() {
       <div className="row m-2 d-flex contactRow">
         <h3>My Contact Information</h3>
       </div>
-      <div className="row">
+      <div className="row contactRow">
 
         {/* Phone Contact */}
         {/* Phone Contact */}
         <div className="col w-2">
-          <div className="card" >
+          <div className="card contactCard" >
             <div className="card-body">
               <h5 className="card-title">Contact Me by Phone</h5>
               <p className="card-text">If you have any questions for me or would like to reach out over a phone call,
@@ -28,12 +28,12 @@ function Contact() {
         {/* Email Contact */}
         {/* Email Contact */}
         <div className="col w-2">
-          <div className="card" >
+          <div className="card contactCard" >
             <div className="card-body">
-              <h5 className="card-title">Send Me an Email</h5>
+              <h5 className="card-title">Contact by Email</h5>
               <p className="card-text">The best way to contact me would be to send me an email at the email address provided in the link below.</p>
               <h4>
-                <a href="mailto:slevalley@gmail.com" target="_blank" rel="noreferrer">Email Me</a>
+                <a href="mailto:slevalley@gmail.com" target="_blank" rel="noreferrer">SLeValley@gmail.com</a>
               </h4>
             </div>
           </div>
@@ -42,7 +42,7 @@ function Contact() {
         {/* GitHub Link */}
         {/* GitHub Link */}
         <div className="col w-2">
-          <div className="card" >
+          <div className="card contactCard" >
             <div className="card-body">
               <h5 className="card-title">View My GitHub Profile</h5>
               <p className="card-text">Please feel free to view my GitHub profile and repositories at any time, I have provided
@@ -57,7 +57,7 @@ function Contact() {
         {/* LinkedIn Link */}
         {/* LinkedIn Link */}
         <div className="col w-2">
-          <div className="card" >
+          <div className="card contactCard" >
             <div className="card-body">
               <h5 className="card-title">View My LinkedIn Profile</h5>
               <p className="card-text">You can also view my LinkedIn profile at the link provided below.</p>
