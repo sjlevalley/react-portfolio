@@ -5,7 +5,7 @@ and is designed to allow people to conduct a detailed review of
 my projects and apps thus far in my coding career. Please feel
 free to look through the information presented.
 
-![App Screenshot](src\utils\images\PortfolioScreenShot.png "Description")
+![App Screenshot](PortfolioScreenShot.png "Description")
 
 # Getting Started with Create React App
 
