@@ -34,8 +34,8 @@ function Card() {
               <h5 className="card-title">BestMexSD</h5>
               <p className="card-text">A React App for San Diegans to View, Submit, and Rate their favorite local Taco Shops!</p>
               <div className="row d-flex justify-content-around">
+                <a href="https://bestmexsd-appage.herokuapp.com/" target="_blank" rel="noreferrer noopener" className="btn btn-primary">View Project</a>
                 <a href="https://github.com/tvnames/BestMexSD" target="_blank" rel="noreferrer noopener" className="btn btn-primary">View Project</a>
-                <a href="https://bestmexsd-appage.herokuapp.com/" target="_blank" rel="noreferrer noopener" className="btn btn-primary">View GitHub Repo</a>
               </div>
             </div>
           </div>
