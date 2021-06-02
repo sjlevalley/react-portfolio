@@ -28,3 +28,7 @@ div[data-reactroot] {
 .IDImage {
   height: 100%;
 }
+
+.aboutContainer {
+  height: 500px;
+}

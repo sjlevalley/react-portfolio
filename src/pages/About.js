@@ -7,7 +7,7 @@ import "../../src/index.css";
 
 function About(props) {
   return (
-    <div>
+    <div className="container-fluid aboutContainer">
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
@@ -30,6 +30,11 @@ function About(props) {
               <p>
                 <strong>Professional Background</strong> - For the past decade, I have been heavily involved in many aspects of shipboard
               engineering related operations in both the Government and Private sectors as well as volunteering in the Navy Reserves.
+            </p>
+              <p>
+                <strong>Skills</strong> - Thus far in the first few months of my career as a Web-Developer, I have had the opportunity
+                to be exposed to gain experience with technical skills, languages, and processes such as React, Express, NoSQL, MySQL, and other
+                Web-Development fundamentals.
             </p>
               <p>
                 <strong>Education</strong> - Along with my Full-Stack Web Development certification, I currently hold a Bachelors
