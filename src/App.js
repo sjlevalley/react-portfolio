@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/">
-            <Redirect to="/about" />
+            <Redirect exact to="/about" />
           </Route>
           <Route exact path="/about">
             <About src={meImage} />
