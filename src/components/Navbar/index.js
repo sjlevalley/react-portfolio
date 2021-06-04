@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import codingResume from "./coding-resume.pdf"
+import codingResume from "./coding-resumev2.pdf"
 
 
 // Depending on the current path, this component sets the "active" class on the
