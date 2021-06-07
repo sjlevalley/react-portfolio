@@ -15,6 +15,8 @@ free to look through the information presented.
 
 # Getting Started with Create React App
 
+Deployed Site: [View My Portfolio](https://sjlevalley.github.io/react-portfolio/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
