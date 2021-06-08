@@ -19,7 +19,10 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/">
-            <Redirect exact to="/about" />
+            <Redirect to="/about" />
+          </Route>
+          <Route exact path="/react-portfolio">
+            <Redirect to="/project" />
           </Route>
           <Route exact path="/about">
             <About src={meImage} />
