@@ -16,25 +16,10 @@ function App() {
   return (
     <Router>
       <div>
-        {/* <Hero backgroundImage={shipImage} />
-        <Navbar /> */}
         <Wrapper>
           <Route exact path="/">
             <NewHome />
           </Route>
-          {/* <Route exact path="/react-portfolio">
-            <Redirect to="/project" />
-          </Route>
-          <Route exact path="/about">
-            <About src={meImage} />
-          </Route>
-          <Route exact path="/project">
-            <Project />
-          </Route> */}
-          {/* <Route exact path="/contact">
-            <NewHome />
-          </Route> */}
-          {/* <Footer /> */}
         </Wrapper>
       </div>
     </Router>
