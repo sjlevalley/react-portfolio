@@ -17,6 +17,9 @@ function App() {
     <Router>
       <div>
         <Wrapper>
+          <Route exact path="/react-portfolio">
+            <Redirect to="/" />
+          </Route>
           <Route exact path="/">
             <NewHome />
           </Route>
