@@ -1,7 +1,7 @@
 {
   "name": "professional-portfolio",
   "version": "0.1.0",
-  "homepage": "https://sjlevalley.github.io/react-portfolio/",
+  "homepage": "https://sjlevalley.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
