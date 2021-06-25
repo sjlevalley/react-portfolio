@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6a4b5855.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.4d18f8d4.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.4d18f8d4.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.216950da.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.216950da.js.map",
-    "static/css/2.81235f4c.chunk.css": "/react-portfolio/static/css/2.81235f4c.chunk.css",
-    "static/js/2.2ff62357.chunk.js": "/react-portfolio/static/js/2.2ff62357.chunk.js",
-    "static/js/2.2ff62357.chunk.js.map": "/react-portfolio/static/js/2.2ff62357.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/2.81235f4c.chunk.css.map": "/react-portfolio/static/css/2.81235f4c.chunk.css.map",
-    "static/css/main.6a4b5855.chunk.css.map": "/react-portfolio/static/css/main.6a4b5855.chunk.css.map",
-    "static/js/2.2ff62357.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.2ff62357.chunk.js.LICENSE.txt",
-    "static/media/BestMexSD.3ad737ad.png": "/react-portfolio/static/media/BestMexSD.3ad737ad.png",
-    "static/media/MeImage.506e0a32.jpg": "/react-portfolio/static/media/MeImage.506e0a32.jpg",
-    "static/media/StevesResume.ac899520.pdf": "/react-portfolio/static/media/StevesResume.ac899520.pdf",
-    "static/media/employeeDirectoryPic.b75d69be.png": "/react-portfolio/static/media/employeeDirectoryPic.b75d69be.png",
-    "static/media/font-awesome.css": "/react-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/shipImage.052e198b.jpg": "/react-portfolio/static/media/shipImage.052e198b.jpg"
+    "main.css": "/static/css/main.8d5e1ec4.chunk.css",
+    "main.js": "/static/js/main.d9461638.chunk.js",
+    "main.js.map": "/static/js/main.d9461638.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.741b09cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.741b09cb.js.map",
+    "static/css/2.76f6d367.chunk.css": "/static/css/2.76f6d367.chunk.css",
+    "static/js/2.67b95450.chunk.js": "/static/js/2.67b95450.chunk.js",
+    "static/js/2.67b95450.chunk.js.map": "/static/js/2.67b95450.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.76f6d367.chunk.css.map": "/static/css/2.76f6d367.chunk.css.map",
+    "static/css/main.8d5e1ec4.chunk.css.map": "/static/css/main.8d5e1ec4.chunk.css.map",
+    "static/js/2.67b95450.chunk.js.LICENSE.txt": "/static/js/2.67b95450.chunk.js.LICENSE.txt",
+    "static/media/BestMexSD.3ad737ad.png": "/static/media/BestMexSD.3ad737ad.png",
+    "static/media/MeImage.506e0a32.jpg": "/static/media/MeImage.506e0a32.jpg",
+    "static/media/RGBS.d0568240.png": "/static/media/RGBS.d0568240.png",
+    "static/media/SnP.e9f33fbc.png": "/static/media/SnP.e9f33fbc.png",
+    "static/media/StevesResume.ac899520.pdf": "/static/media/StevesResume.ac899520.pdf",
+    "static/media/employeeDirectoryPic.b75d69be.png": "/static/media/employeeDirectoryPic.b75d69be.png",
+    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.216950da.js",
-    "static/css/2.81235f4c.chunk.css",
-    "static/js/2.2ff62357.chunk.js",
-    "static/css/main.6a4b5855.chunk.css",
-    "static/js/main.4d18f8d4.chunk.js"
+    "static/js/runtime-main.741b09cb.js",
+    "static/css/2.76f6d367.chunk.css",
+    "static/js/2.67b95450.chunk.js",
+    "static/css/main.8d5e1ec4.chunk.css",
+    "static/js/main.d9461638.chunk.js"
   ]
 }
