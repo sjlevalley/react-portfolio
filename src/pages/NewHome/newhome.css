@@ -1,0 +1,435 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* #cc4100: #cc4100; */
+/* #000000: #000000; */
+/* $about-color: #ffffe0; */
+/* #font-color: #fafaf8; */
+/* $alt-font-color: #ffffe0; */
+/* $alt2-font-color: #575757; */
+/* $highlight: #ffff00; */
+/* $general-font-family, sans-serif: "Slabo 27px", sans-serif; */
+/* $name-font-family: "Lobster", "Slabo 27px", sans-serif; */
+/* $gen-letter-spacing: 0.05em; */
+
+body {
+  font-family: "Special Elite", cursive;
+}
+
+header,
+section,
+footer {
+  position: relative;
+}
+
+html,
+body {
+  height: auto;
+  overflow: auto;
+}
+
+html {
+  font-family: "Slabo 27px", sans-serif;
+  letter-spacing: 0.05em;
+  color: #fafaf8;
+  scroll-behavior: smooth;
+}
+
+.highlight {
+  color: #ffff00;
+}
+
+#header {
+  background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
+    10%, #cc4100;
+  min-height: 0;
+  font-family: "Special Elite", cursive;
+}
+
+#home {
+  background: url(http://www.transparenttextures.com/patterns/binding-light.png),
+    5%, #000000;
+
+  background-attachment: scroll;
+}
+#about {
+  background: url(http://www.transparenttextures.com/patterns/binding-dark.png),
+    5%, #ffffe0;
+}
+#portfolio {
+  background: url(http://www.transparenttextures.com/patterns/binding-light.png),
+    5%, #000000;
+  background-attachment: scroll;
+}
+#contact {
+  background: url(http://www.transparenttextures.com/patterns/binding-dark.png),
+    5%, #ffffe0;
+}
+footer {
+  background: url(http://www.transparenttextures.com/patterns/egg-shell.png),
+    10%, #cc4100;
+}
+section {
+  padding: 30px 5px 15px;
+}
+
+header #container {
+  padding: 30px 5px 0px;
+  width: 100%;
+}
+header #container #name {
+  font-size: 2.35em;
+  letter-spacing: 0.1em;
+  font-family: "Special Elite", cursive;
+  color: #fafaf8;
+  text-shadow: 0px -2px 1px darken(#cc4100, 20%);
+}
+
+header #container #nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 25px auto 0;
+  color: #fafaf8;
+  font-family: "Special Elite", cursive;
+  font-weight: bold;
+  text-shadow: 0px -2px 0px darken(#cc4100, 10%);
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  font-size: 1.2em;
+  max-width: 500px;
+}
+header #container #nav a {
+  padding: 0.3em;
+}
+header #container #nav #menu-button {
+  display: none;
+}
+
+header #container ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.75em;
+  font-family: "Special Elite", cursive;
+  letter-spacing: 0.05em;
+}
+h2 {
+  margin-bottom: 15px;
+}
+
+.holder {
+  max-height: 360px;
+  max-width: 640px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#home {
+  /* @include text-shadow; */
+  padding: 15px 10px 30px;
+  line-height: 2em;
+}
+#home p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: bold;
+  color: #fafaf8;
+}
+
+#home,
+#portfolio,
+#music {
+  border-bottom: solid 5px lighten(#000000, 15%);
+}
+
+.highlight-div {
+  padding: 10px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px 5px #cc4100;
+  /* rgba(green, 0.75); */
+  max-width: 650px;
+}
+#about {
+  color: #575757;
+  text-shadow: 0px -1px 0px darken(#ffffe0, 5%), 0px 1px 0px darken(#ffffe0, 5%);
+  padding: 20px 10px 30px;
+}
+#about h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+#about .highlight {
+  color: #222222;
+  text-decoration: none;
+}
+#about .green {
+  color: #cc4100;
+  text-decoration: none;
+}
+#about p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 10px;
+  max-width: 700px;
+}
+#about img {
+  max-width: 300px;
+  width: 90%;
+  border-radius: 50%;
+  border: #ffffe0 solid 3px;
+  margin-bottom: 20px;
+}
+
+#portfolio {
+  padding: 20px 10px 30px;
+  text-shadow: 0px -1px 1px darken(#000000, 30%);
+  /* 0px 1px 0px darken(#000000, 20%); */
+}
+#portfolio h1 {
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+.items-container {
+  display: flex;
+  flex: column wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  max-width: 420px;
+  min-width: 315px;
+  flex-shrink: 0;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: #fafaf8;
+}
+.item-text {
+  padding-top: 30px;
+  max-width: 200px;
+}
+.item-text p {
+  padding: 5px;
+}
+
+.item-description {
+  color: wheat;
+}
+
+.img-container {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  border: solid 3px lighten(#000000, 15%);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  background: #ffffe0
+    url(http://www.transparenttextures.com/patterns/binding-dark.png) fixed
+    center center;
+}
+.img-container:hover .item-image {
+  max-width: 100%;
+}
+#grace-ingland .img-container {
+  align-items: stretch;
+}
+.item-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.item-image {
+  transition: 0.3s;
+  max-width: 70%;
+}
+.wider {
+  max-width: 90%;
+}
+
+#emailAddress {
+  font-family: "Special Elite", cursive;
+  color: #575757;
+  text-shadow: 0px -1px 0px darken(#ffffe0, 5%);
+}
+
+#contact {
+  font-family: "FontAwesome", sans-serif;
+
+  color: #575757;
+  text-shadow: 0px -1px 0px darken(#ffffe0, 5%);
+  padding: 30px 10px 40px;
+}
+#contact h1 {
+  font-size: 2.5em;
+  margin-top: 10px;
+}
+#contact .social-links {
+  display: flex !important;
+  justify-content: space-between;
+  max-width: 480px;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#contact li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid lighten(#000000, 20%);
+  border-radius: 50%;
+  background: #000000
+    url(http://www.transparenttextures.com/patterns/binding-light.png) scroll
+    center center;
+  width: 50px;
+  height: 50px;
+  font-weight: normal;
+  text-shadow: none;
+  font-size: 1.75em;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2.25em;
+  align-items: center;
+  text-shadow: 0px -2px 1px darken(#cc4100, 10%),
+    0px 1px 0px darken(#cc4100, 10%);
+  font-size: 0.9em;
+  padding: 10px 5px;
+}
+footer a {
+  font-size: 1.05em;
+}
+
+@media all and (max-width: 360px) {
+  #nav,
+  .social-links {
+    justify-content: center !important;
+    text-align: center;
+  }
+  .item {
+    flex-direction: column-reverse !important;
+    width: auto;
+    min-width: initial;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .img-container {
+    margin-top: 20px;
+  }
+}
+@media all and (max-width: 350px) {
+  #divider3 {
+    display: none;
+  }
+}
+@media all and (max-width: 260px) {
+  #divider3 {
+    display: inline-block;
+  }
+  #divider2 {
+    display: none;
+  }
+}
+@media all and (min-width: 540px) {
+  .img-container {
+    width: 200px;
+    height: 200px;
+  }
+  .item-text {
+    padding-top: 60px;
+    max-width: 200px;
+  }
+  #home h1 {
+    font-size: 2.25em;
+  }
+}
+@media all and (min-width: 720px) {
+  .item {
+    flex-direction: column-reverse !important;
+    width: auto;
+    min-width: initial;
+    margin: 25px;
+  }
+  .items-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img-container {
+    margin-top: 20px;
+  }
+  .item-text {
+    padding-top: 0px;
+  }
+}
+@media all and (min-width: 780px) {
+  header #container {
+    display: flex;
+    padding: 10px 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  header #container #name {
+    font-size: 1.85em;
+  }
+  header #container #nav {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    line-height: 1em;
+    box-shadow: none;
+  }
+}
+#home h1 {
+  font-size: 3em;
+}
+
+@media all and (min-width: 1050px) {
+  #about span.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  #about span.container img {
+    flex-shrink: 0;
+    height: 306px;
+    width: 306px;
+    margin-right: 50px;
+  }
+  #about span.container span.text-container {
+    max-width: 600px;
+  }
+}
