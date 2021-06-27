@@ -51,7 +51,7 @@ function NewHome() {
                 <span className="container">
                     <img alt="That's my face." id="main-photo" src={image} />
                     <span className="text-container">
-                        <p>I'm a <span className="highlight" /> Full-Stack Web Developer, entrepeneur, athlete, and Nobel Prize loser from San Diego, California.</p>
+                        <p>I'm a <span className="highlight" /> Full-Stack Web Developer, Engineer, entrepeneur and athlete from San Diego, California.</p>
                         <p>I am currently studying follow-up continuation courses and in the hunt for a Web-Developer position.
                         </p><p>I am driven by challenging endeavors and enjoy self-development and applying my skills towards solving programming challenges; where there's a will, there's a way!</p>
                         <div className="highlight-div">
