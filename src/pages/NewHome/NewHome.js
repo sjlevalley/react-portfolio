@@ -1,6 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core'
 import "./newhome.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import image from './images/MeImage.jpg';
 import BestMexSD from './images/BestMexSD.png';
 import EmployeeDirectory from './images/employeeDirectoryPic.png';
@@ -8,6 +10,9 @@ import SNP from './images/SnP.png';
 import RGBS from './images/RGBS.png';
 import WeatherDash from './images/WeatherDash.png';
 import codingResume from './util/StevesResume.pdf';
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, faEnvelope)
 
 
 
@@ -157,15 +162,14 @@ function NewHome() {
                 <h6 id="emailAddress">(SLeValley@gmail.com)</h6>
                 <ul className="social-links">
 
-                    <a target="_blank" rel="noopener noreferrer" title="GitHub" href="https://github.com/sjlevalley" className="github">
-                        <li><span className="fontawesome-github" /></li>
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer" title="email" href="mailto:slevalley@gmail.com" className="email">
-                        <li><span className="fontawesome-envelope" /></li>
-                    </a>
-                    <a target="_blank" rel="noopener noreferrer" title="LinkedIn" href="https://www.linkedin.com/in/steve-levalley/" className="linkedin">
-                        <li><span className="fontawesome-linkedin" /></li>
-                    </a>
+                    <li><a target="_blank" rel="noopener noreferrer" title="GitHub" href="https://github.com/sjlevalley" className=" github">
+                        <FontAwesomeIcon icon={["fab", "github"]} /></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" title="email" href="mailto:slevalley@gmail.com" className="email">
+                        <FontAwesomeIcon icon={faEnvelope} /></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" title="LinkedIn" href="https://www.linkedin.com/in/steve-levalley/" className="linkedin">
+                        <FontAwesomeIcon icon={["fab", "linkedin"]} /></a></li>
+
+
                 </ul>
             </section>
             <footer id="footer">
