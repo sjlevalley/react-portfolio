@@ -82,7 +82,7 @@ function NewHome() {
                     <div className="item reverse" id="bestmex"> {/* item -- >
                           <!-- each item has an image, title, and description */}
                         <div className="img-container">
-                            <a target="_blank" href="https://bestmexsd-appage.herokuapp.com/" rel="noopener noreferrer">
+                            <a target="_blank" href="https://my-best-mex-sd.herokuapp.com/" rel="noopener noreferrer">
                                 <img
                                     className="item-image"
                                     alt="Best Mex SD Logo"
@@ -117,7 +117,7 @@ function NewHome() {
                             <a target="_blank" href="https://squeeze-and-panic.herokuapp.com/" rel="noopener noreferrer"><img className="item-image wider" alt="Squeeze and Panic Screenshot" src={SNP} /></a>
                         </div>
                         <div className="item-text">
-                            <a target="_blank" href="https://squeeze-and-panic.herokuapp.com/" rel="noopener noreferrer"><h3 className="item-title">Squeeze & Panic (currently in progress)</h3></a>
+                            <a target="_blank" href="https://squeeze-and-panic.herokuapp.com/" rel="noopener noreferrer"><h3 className="item-title">Squeeze & Panic</h3></a>
                             <p className="item-description">MERN Stack, JavaScript, CSS</p>
                         </div>
                     </div> {/* end of item */}
