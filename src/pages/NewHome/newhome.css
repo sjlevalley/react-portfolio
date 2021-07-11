@@ -59,6 +59,9 @@ html {
     5%, #000000;
   background-attachment: scroll;
 }
+#portfolio h1 {
+  color: #ffffe0;
+}
 #contact {
   background: url(http://www.transparenttextures.com/patterns/binding-dark.png),
     5%, #ffffe0;
