@@ -89,7 +89,7 @@ function NewHome() {
                                     src={BestMexSD} /></a>
                         </div>
                         <div className="item-text">
-                            <a target="_blank" href="https://bestmexsd-appage.herokuapp.com/" rel="noopener noreferrer"><h3 className="item-title">BestMexSD!</h3></a>
+                            <a target="_blank" href="https://my-best-mex-sd.herokuapp.com/" rel="noopener noreferrer"><h3 className="item-title">BestMexSD!</h3></a>
                             <p className="item-description">React.js, MongoDB, Express, Node.js, JavaScript</p>
                         </div>
                     </div>
