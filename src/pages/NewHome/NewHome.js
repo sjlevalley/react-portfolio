@@ -60,9 +60,17 @@ function NewHome() {
                         <p>I am currently studying follow-up continuation courses and in the hunt for a Web-Developer position.
                         </p><p>I am driven by challenging endeavors and enjoy self-development and applying my skills towards solving programming challenges; where there's a will, there's a way!</p>
                         <div className="highlight-div">
-                            <p className="highlight">Dev Skills:</p>
-                            <strong className="highlight">Current:</strong><p>React.js, Express, NoSQL, MySQL, Node<br />Currently working on my AWS Developer Certification</p>
-                            <strong className="highlight">In-Progress:</strong><p>AWS Developer Certification</p>
+                            <p className="highlight">Dev Skills</p>
+                            <strong className="highlight">Current:</strong>
+                            <p>- React.js<br /></p>
+                            <p>- Express<br /></p>
+                            <p>- NoSQL<br /></p>
+                            <p>- SQL<br /></p>
+                            <p>- Node<br /></p>
+                            <p>- JavaScript, HTML, CSS<br /></p>
+                            <strong className="highlight">In-Progress:</strong>
+                            <p> - AWS Developer Certification</p>
+                            <p> - Enhancing React Skills</p>
                         </div>
                         <p>I've been using <a className="green" href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer"> Udemy, </a> <a className="green" href="https://www.freecodecamp.com/" target="_blank" rel="noopener noreferrer">Free Code Camp</a>, <a className="green" href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy</a>, and other free resources for my education.</p>
                     </span>
