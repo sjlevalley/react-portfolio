@@ -1,17 +1,11 @@
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
-/* #cc4100: #cc4100; */
-/* #000000: #000000; */
-/* $about-color: #ffffe0; */
-/* #font-color: #fafaf8; */
-/* $alt-font-color: #ffffe0; */
-/* $alt2-font-color: #575757; */
-/* $highlight: #ffff00; */
-/* $general-font-family, sans-serif: "Slabo 27px", sans-serif; */
-/* $name-font-family: "Lobster", "Slabo 27px", sans-serif; */
-/* $gen-letter-spacing: 0.05em; */
 
 body {
   font-family: "Special Elite", cursive;
+}
+
+.aboutMeText {
+  width: fit-content;
 }
 
 header,
@@ -167,7 +161,8 @@ h2 {
 }
 #about h1 {
   font-size: 2.5em;
-  margin-top: 20px;
+  margin-left: 50px;
+  margin-top: 0px;
 }
 #about .highlight {
   color: #222222;
@@ -182,12 +177,14 @@ h2 {
   font-weight: bold;
   margin: auto;
   margin-bottom: 10px;
-  max-width: 700px;
+  margin-left: 10px;
+  /* max-width: 700px; */
 }
 #about img {
   max-width: 300px;
   width: 90%;
   border-radius: 50%;
+  margin-right: 20px;
   border: #ffffe0 solid 3px;
   margin-bottom: 20px;
 }

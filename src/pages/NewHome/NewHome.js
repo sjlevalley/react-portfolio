@@ -19,11 +19,12 @@ library.add(fab, faEnvelope)
 function NewHome() {
 
     return (
-
         <div>
-
-            {/* <div id="scrollview"> */}
             <header id="header">
+
+                {/* ############### NavBar #################### */}
+                {/* ############### NavBar #################### */}
+                {/* ############### NavBar #################### */}
                 <div id="container" className="container">
                     <div className="row " id="name">Steve LeValley</div>
                     <ul className="row " id="nav">
@@ -47,18 +48,32 @@ function NewHome() {
                     </div>
                 </div>
             </header >
+
+            {/* ########################### JumboTron ############################## */}
+            {/* ########################### JumboTron ############################## */}
+            {/* ########################### JumboTron ############################## */}
             <section id="home">
-                <h1>Welcome <span>to</span> My Portfolio!</h1>
-                {/*     <p>Where Dreams Are <span class="highlight">Electrically</span> Charged Into Reality.</p> */}
+                <h1>Welcome to My Portfolio!</h1>
             </section>
+
+
             <section id="about">
-                <h1>About Me</h1>
-                <span className="container">
-                    <img alt="That's my face." id="main-photo" src={image} />
+                <div className="row">
+
+                    <div className="col aboutMeText">
+                        <h1>About Me</h1>
+                        <img className="float-left" alt="Holding a fish" id="main-photo" src={image} />
+                        <p>Highly driven and hardworking Full-Stack Web Developer willing to go the extra mile to ensure a high-quality outcome. I received a certificate for Full-Stack Web Development from the University of California, San Diego, and a prior B.S. in Marine Engineering Technology from the California Maritime Academy. Being a team member is integral to who I am as a person, but I am also able to work alone without any oversight, when needed. Evidence of demonstrating these qualities lies in my personal, educational, and career backgrounds as I have received awards, recommendations, and positive evaluations for my efforts in each of these spheres. Hard-work, and being quality-driven have been instilled in my ethos as an employee. I am eager to apply these traits, as well as my Web-Development skills, which include but are not limited to, React, Express, SQL and NoSQL in a fast-paced, quality-driven environment.</p>
+                    </div>
+                </div>
+                <div className="container-fluid">
+                    {/* <div className="row"> */}
+
                     <span className="text-container">
-                        <p>I'm a <span className="highlight" /> Full-Stack Web Developer, Engineer, entrepeneur and athlete from San Diego, California.</p>
-                        <p>I am currently studying follow-up continuation courses and in the hunt for a Web-Developer position.
-                        </p><p>I am driven by challenging endeavors and enjoy self-development and applying my skills towards solving programming challenges; where there's a will, there's a way!</p>
+
+
+                        {/* </div> */}
+
                         <div className="highlight-div">
                             <p className="highlight">Dev Skills</p>
                             <strong className="highlight">Current:</strong>
@@ -72,10 +87,14 @@ function NewHome() {
                             <p> - AWS Developer Certification</p>
                             <p> - Enhancing React Skills</p>
                         </div>
-                        <p>I've been using <a className="green" href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer"> Udemy, </a> <a className="green" href="https://www.freecodecamp.com/" target="_blank" rel="noopener noreferrer">Free Code Camp</a>, <a className="green" href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy</a>, and other free resources for my education.</p>
+                        <p>I've been using <a className="green" href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer"> Udemy, </a> <a className="green" href="https://www.freecodecamp.com/" target="_blank" rel="noopener noreferrer">Free Code Camp</a>, <a className="green" href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy</a>, and other resources for continued development and continuation courses.</p>
                     </span>
-                </span>
+                </div>
             </section>
+
+            {/* ########################### Projects ####################### */}
+            {/* ########################### Projects ####################### */}
+            {/* ########################### Projects ####################### */}
             <section id="portfolio">
                 <h1>My Portfolio</h1>
 
