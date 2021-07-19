@@ -147,12 +147,16 @@ h2 {
   border-bottom: solid 5px lighten(#000000, 15%);
 }
 
+#textContainer {
+  display: flex;
+  align-content: flex-end;
+  /* margin-left: 50px; */
+}
+
 .highlight-div {
   padding: 10px;
   margin: 20px auto;
   box-shadow: 0 0 10px 5px #cc4100;
-  /* rgba(green, 0.75); */
-  /* max-width: 650px; */
 }
 #about {
   color: #575757;

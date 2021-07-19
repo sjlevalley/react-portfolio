@@ -20,7 +20,7 @@ function NewHome() {
 
     return (
         <div>
-            <header id="header">
+            <header className="container-fluid" id="header">
 
                 {/* ############### NavBar #################### */}
                 {/* ############### NavBar #################### */}
@@ -40,11 +40,14 @@ function NewHome() {
                         <a href="#contact">
                             <li id="nav-Contact" className="nav-option">Contact</li>
                         </a><span id="divider3">|</span>
-                    </ul>
-                    <div className="row">
                         <a href={codingResume} target="_blank" rel="noreferrer noopener" className="nav-option">
                             Resume(PDF)
                         </a>
+                    </ul>
+                    <div className="row">
+                        {/* <a href={codingResume} target="_blank" rel="noreferrer noopener" className="nav-option">
+                            Resume(PDF)
+                        </a> */}
                     </div>
                 </div>
             </header >
@@ -89,7 +92,11 @@ function NewHome() {
                             <p>- Node<br /></p>
                             <p>- JavaScript, HTML, CSS<br /></p>
                         </div>
-                        <p>I've been using <a className="green" href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer"> Udemy, </a> <a className="green" href="https://www.freecodecamp.com/" target="_blank" rel="noopener noreferrer">Free Code Camp</a>, <a className="green" href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy</a>, and other resources for continued development and continuation courses.</p>
+                        <div className="container-fluid" >
+                            <div className="row d-flex justify-content-center m-1" id="textContainer">
+                                <div><strong>I've been using <a className="green" href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer"> Udemy, </a> <a className="green" href="https://www.freecodecamp.com/" target="_blank" rel="noopener noreferrer">Free Code Camp</a>, <a className="green" href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy</a>, and other resources for continued development and continuation courses.</strong></div>
+                            </div>
+                        </div>
                     </div>
 
 
