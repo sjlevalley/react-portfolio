@@ -152,7 +152,7 @@ h2 {
   margin: 20px auto;
   box-shadow: 0 0 10px 5px #cc4100;
   /* rgba(green, 0.75); */
-  max-width: 650px;
+  /* max-width: 650px; */
 }
 #about {
   color: #575757;

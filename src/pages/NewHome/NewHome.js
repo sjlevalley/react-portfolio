@@ -67,14 +67,19 @@ function NewHome() {
                     </div>
                 </div>
                 <div className="container-fluid">
-                    {/* <div className="row"> */}
-
-                    <span className="text-container">
-
-
-                        {/* </div> */}
-
-                        <div className="highlight-div">
+                    <div className="row border border-dark">
+                        <div className="col-lg-5 highlight-div">
+                            <p className="highlight">Certifications</p>
+                            <strong className="highlight">In Progress: </strong>
+                            <p> - AWS Developer Certification</p>
+                            <hr />
+                            <strong className="highlight">Upcoming:</strong>
+                            <p> - CompTIA Security+</p>
+                            <hr />
+                            <strong className="highlight">Recently Completed:</strong>
+                            <p> - React/Redux Certification - Udemy</p>
+                        </div>
+                        <div className="col-lg-5 highlight-div">
                             <p className="highlight">Dev Skills</p>
                             <strong className="highlight">Current:</strong>
                             <p>- React.js<br /></p>
@@ -83,12 +88,11 @@ function NewHome() {
                             <p>- SQL<br /></p>
                             <p>- Node<br /></p>
                             <p>- JavaScript, HTML, CSS<br /></p>
-                            <strong className="highlight">In-Progress:</strong>
-                            <p> - AWS Developer Certification</p>
-                            <p> - Enhancing React Skills</p>
                         </div>
                         <p>I've been using <a className="green" href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer"> Udemy, </a> <a className="green" href="https://www.freecodecamp.com/" target="_blank" rel="noopener noreferrer">Free Code Camp</a>, <a className="green" href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy</a>, and other resources for continued development and continuation courses.</p>
-                    </span>
+                    </div>
+
+
                 </div>
             </section>
 
