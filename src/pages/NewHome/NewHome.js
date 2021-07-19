@@ -74,7 +74,7 @@ function NewHome() {
                         <div className="col-lg-5 highlight-div">
                             <p className="highlight">Certifications</p>
                             <strong className="highlight">In Progress: </strong>
-                            <p> - AWS Developer Certification</p>
+                            <p> - AWS Developer (Associate)  Certification</p>
                             <hr />
                             <strong className="highlight">Upcoming:</strong>
                             <p> - CompTIA Security+</p>
