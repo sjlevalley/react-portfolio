@@ -70,11 +70,11 @@ function NewHome() {
                     </div>
                 </div>
                 <div className="container-fluid">
-                    <div className="row border border-dark">
+                    <div className="row">
                         <div className="col-lg-5 highlight-div">
                             <p className="highlight">Certifications</p>
                             <strong className="highlight">In Progress: </strong>
-                            <p> - AWS Developer (Associate)  Certification</p>
+                            <p> - AWS Certified Cloud Practitioner</p>
                             <hr />
                             <strong className="highlight">Upcoming:</strong>
                             <p> - CompTIA Security+</p>
