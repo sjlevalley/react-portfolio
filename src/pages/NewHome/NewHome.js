@@ -80,12 +80,14 @@ function NewHome() {
                             <p> - CompTIA Security+</p>
                             <hr />
                             <strong className="highlight">Recently Completed:</strong>
+
+                            <p> - AWS Certified Cloud Practitioner - Udemy</p>
                             <p> - React/Redux Certification - Udemy</p>
                         </div>
                         <div className="col-lg-5 highlight-div">
                             <p className="highlight">Dev Skills</p>
                             <strong className="highlight">Current:</strong>
-                            <p>- React.js<br /></p>
+                            <p>- React/Redux<br /></p>
                             <p>- Express<br /></p>
                             <p>- NoSQL<br /></p>
                             <p>- SQL<br /></p>
