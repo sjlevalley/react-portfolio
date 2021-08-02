@@ -8,7 +8,7 @@ import BestMexSD from './images/BestMexSD.png';
 import EmployeeDirectory from './images/employeeDirectoryPic.png';
 import SNP from './images/SnP.png';
 import RGBS from './images/RGBS.png';
-import WeatherDash from './images/WeatherDash.png';
+import awsThought from './images/awsThought.png';
 import codingResume from './util/StevesResume.pdf';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -25,7 +25,7 @@ function NewHome() {
                 {/* ############### NavBar #################### */}
                 {/* ############### NavBar #################### */}
                 {/* ############### NavBar #################### */}
-                <div id="container" className="container">
+                <div className="container" id="container" >
                     <div className="row " id="name">Steve LeValley</div>
                     <ul className="row " id="nav">
                         <a href="#home">
@@ -44,11 +44,6 @@ function NewHome() {
                             Resume(PDF)
                         </a>
                     </ul>
-                    <div className="row">
-                        {/* <a href={codingResume} target="_blank" rel="noreferrer noopener" className="nav-option">
-                            Resume(PDF)
-                        </a> */}
-                    </div>
                 </div>
             </header >
 
@@ -182,11 +177,11 @@ function NewHome() {
                     <div className="item reverse" id="drawing-grid"> {/* item */}
                         {/* each item has an image, title, and description */}
                         <div className="img-container">
-                            <a target="_blank" href="https://sjlevalley.github.io/WeatherDashboard/" rel="noopener noreferrer"><img className="item-image wider" alt="WeatherDash screenshot" src={WeatherDash} /></a>
+                            <a target="_blank" href="http://18.191.138.198/" rel="noopener noreferrer"><img className="item-image wider" alt="WeatherDash screenshot" src={awsThought} /></a>
                         </div>
                         <div className="item-text">
-                            <a target="_blank" href="https://sjlevalley.github.io/WeatherDashboard/" rel="noopener noreferrer"><h3 className="item-title">Weather Dashboard</h3></a>
-                            <p className="item-description">JavaScript, HTML, CSS, LocalStorage, API</p>
+                            <a target="_blank" href="http://18.191.138.198/" rel="noopener noreferrer"><h3 className="item-title">AWS Thought Experiment!</h3></a>
+                            <p className="item-description">AWS S3 Bucket, AWS DynamoDB, AWS EC-2 Instance, React.js, JavaScript</p>
                         </div>
                     </div> {/* end of item */}
 
