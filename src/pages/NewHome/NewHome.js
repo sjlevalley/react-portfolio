@@ -83,6 +83,7 @@ function NewHome() {
                             <p className="highlight">Dev Skills</p>
                             <strong className="highlight">Current:</strong>
                             <p>- React/Redux<br /></p>
+                            <p>- AWS</p>
                             <p>- Express<br /></p>
                             <p>- NoSQL<br /></p>
                             <p>- SQL<br /></p>
