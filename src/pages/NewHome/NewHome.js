@@ -168,7 +168,7 @@ function NewHome() {
                         </div>
                         <div className="item-text">
                             <a target="_blank" href="https://react-google-books-search-01.herokuapp.com/" rel="noopener noreferrer"><h3 className="item-title">React Google Books Search</h3></a>
-                            <p className="item-description">React.js, JavaScript</p>
+                            <p className="item-description">React.js, JavaScript, MongoDB, Heroku, HTML, CSS</p>
                         </div>
                     </div> {/* end of item */}
 
