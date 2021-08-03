@@ -41,7 +41,7 @@ function NewHome() {
                             <li id="nav-Contact" className="nav-option">Contact</li>
                         </a><span id="divider3">|</span>
                         <a href="https://docs.google.com/document/d/18el5ix3n0d66RjrEs-wUGvvt8rBVTesSjzgfQCh97Jc/edit?usp=sharing" target="_blank" rel="noreferrer noopener" className="nav-option">
-                            Resume(PDF)
+                            Link to Resume
                         </a>
                     </ul>
                 </div>
