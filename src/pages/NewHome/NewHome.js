@@ -39,10 +39,7 @@ function NewHome() {
             <footer id="footer">
                 <a href="#header">- Back To Top -</a>
             </footer>
-            {/* </div> */}
         </div >
-
-
     );
 }
 

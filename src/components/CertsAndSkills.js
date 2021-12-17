@@ -35,7 +35,7 @@ function CertsAndSkills() {
                     <p>Web App Frameworks - Express, Flask<br /></p>
                     <p>Languages - HTML, CSS, JavaScript, Python, SQL, NoSQL</p>
                     <p>Environments - Node, Python<br /></p>
-                    <p>Other - Test Driven Development, Redis, Docker, Git, Jira, Postman, TablePlus</p>
+                    <p>Other - Test Driven Development, Redis, Docker, Git, GitHub, Jira, Postman, TablePlus, VSCode, IntelliJ</p>
 
                 </div>
                 <div className="container-fluid" >

@@ -14,7 +14,7 @@ function NavBar() {
                     <a className="d-flex my-2 mx-4" href="#portfolio">Portfolio</a>
                     <a className="d-flex my-2 mx-4" href="#contact">Contact</a>
                     <a className="d-flex my-2 mx-4" href="https://docs.google.com/document/d/18el5ix3n0d66RjrEs-wUGvvt8rBVTesSjzgfQCh97Jc/edit?usp=sharing" target="_blank" rel="noreferrer noopener" >
-                        Link to Resume
+                        View Resume
                     </a>
                 </div>
             </div>
