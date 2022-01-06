@@ -14,7 +14,7 @@ function PortfolioProjects() {
 
         <>
             <h1>My Portfolio</h1>
-            <div className='container'>
+            <div className='container-fluid'>
                 <div className='row d-flex justify-content-center'>
                     <Card
                         id="bestmex"

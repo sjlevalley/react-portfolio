@@ -14,14 +14,16 @@ function CertsAndSkills() {
             <div className="row">
                 <div className="col-lg-5 highlight-div">
                     <strong className="highlight">In Progress: </strong>
-                    <p>Next.js - The Complete Guide - Udemy</p>
+
                     <p>Docker & Kubernetes: The Practical Guide</p>
                     <hr />
                     <strong className="highlight">Upcoming:</strong>
                     <p>  The Data Science Course 2021 - Complete Data Science Bootcamp</p>
                     <hr />
                     <strong className="highlight">Recently Completed:</strong>
+                    <p>  Next.js - The Complete Guide (25 hrs) - Udemy</p>
                     <p>  React - The Complete Guide (48.5 hrs) - Udemy</p>
+                    <p>  The Complete Python/PostgreSQL Course 2.0 (13.5 hrs) - Udemy</p>
                     <p>  REST APIs with Flask and Python (17 hrs) - Udemy</p>
                     <p>  Learn Python Programming Masterclass (65 hrs) - Udemy</p>
                     <p>  AWS Certified Cloud Practitioner - AWS Cert</p>
@@ -30,8 +32,8 @@ function CertsAndSkills() {
                 </div>
                 <div className="col-lg-5 highlight-div">
                     <strong className="highlight">Current:</strong>
-                    <p>Frameworks - React/Redux<br /></p>
-                    <p>Database (NoSQL & SQL) - MongoDB, Postgres, AWS, SQLite</p>
+                    <p>Frameworks - React/Redux, Next.js<br /></p>
+                    <p>Database (NoSQL & SQL) - MongoDB, PostgreSQL, AWS, SQLite</p>
                     <p>Web App Frameworks - Express, Flask<br /></p>
                     <p>Languages - HTML, CSS, JavaScript, Python, SQL, NoSQL</p>
                     <p>Environments - Node, Python<br /></p>
