@@ -15,9 +15,10 @@ function CertsAndSkills() {
                 <div className="col-lg-5 highlight-div">
                     <strong className="highlight">In Progress: </strong>
 
-                    <p>Docker & Kubernetes: The Practical Guide</p>
+                    <p> NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)</p>
                     <hr />
                     <strong className="highlight">Upcoming:</strong>
+                    <p>  Docker & Kubernetes: The Practical Guide</p>
                     <p>  The Data Science Course 2021 - Complete Data Science Bootcamp</p>
                     <hr />
                     <strong className="highlight">Recently Completed:</strong>
