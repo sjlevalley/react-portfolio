@@ -13,9 +13,9 @@ function PortfolioProjects() {
     return (
 
         <>
-            <h1>My Portfolio</h1>
             <div className='container-fluid'>
-                <div className='row d-flex justify-content-center'>
+                <h1 className='ml-4'>My Portfolio</h1>
+                <div className='row d-flex'>
                     <Card
                         id="bestmex"
                         url="https://my-best-mex-sd.herokuapp.com/"

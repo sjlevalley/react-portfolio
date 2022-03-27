@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card(props) {
     return (
-        <div className='col-3 d-flex justify-content-center'>
+        <div className='col d-flex'>
             <div className="item reverse" id={props.id}>
                 <div className="img-container">
                     <a target="_blank" href={props.url} rel="noopener noreferrer">

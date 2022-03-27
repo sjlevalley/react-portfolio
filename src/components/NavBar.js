@@ -4,8 +4,8 @@ import React from 'react'
 function NavBar() {
     return (
         <header className="container-fluid" id="header">
-            <div className="row d-flex p-3">
-                <div className="col-lg-4 name d-flex justify-content-center align-items-center my-2">
+            <div className="row ml-4">
+                <div className="col-lg-3 name d-flex ml-4 my-3">
                     Steve LeValley
                 </div>
                 <div className="col-lg-8 d-flex align-items-center headerLinks">

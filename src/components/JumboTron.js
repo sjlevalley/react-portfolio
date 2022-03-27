@@ -4,7 +4,7 @@ function JumboTron() {
     return (
 
         <section id="home">
-            <h1>Welcome to My Portfolio!</h1>
+            <h1 className="d-flex m-3 homeText">Welcome to My Portfolio!</h1>
         </section>
     )
 }

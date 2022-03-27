@@ -2,13 +2,13 @@ import React from 'react'
 
 function CertsAndSkills() {
     return (
-        <div className="container-fluid">
-            <div className='row'>
+        <div className="container-fluid mx-4">
+            <div className='row ml-1'>
                 <div className='col'>
-                    <p className="d-flex justify-content-center highlight">Certifications</p>
+                    <p className="highlight">Certifications</p>
                 </div>
                 <div className='col'>
-                    <p className="d-flex justify-content-center highlight">Dev Skills</p>
+                    <p className="highlight">Dev Skills</p>
                 </div>
             </div>
             <div className="row">
